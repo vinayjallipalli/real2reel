@@ -1,0 +1,74 @@
+body{
+	
+	font-family:Gotham;
+	
+	
+	
+}
+.form_header{
+	text-align: center;
+	width:400px;
+	background-color: #2D3047;
+    color: white;
+    padding: 20px 40px;
+    
+
+}
+
+input[type=text], select, input[type=password], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #E84865;
+    color: white;
+    padding: 14px 20px;
+    margin: 25px 0;
+    border: none;
+    border-color: green;
+    cursor: pointer;
+}
+.social_media{
+	width:30%;
+	background-color: #536BF5;
+	text-align: center;
+	border-radius: 3px;
+	padding: 10px;
+	color: white;
+	font-size: 14px;
+	position: relative;
+	left: 10px;
+}
+.social_media:hover{
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+	transform: scale(1.05,1.05);
+	cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #E84845;
+}
+.login_form {
+    background-color: #eee;
+    padding: 40px;
+    width:400px;
+    height: 400px;
+}
+.signup_form{
+	background-color: #eee;
+    padding: 40px;
+    width:400px;
+    height: 800px;
+}
+
+.login_container,.signup_container{
+	transform: scale(0.9,0.9);
+	position: relative;
+	left: 30%;
+	
+}

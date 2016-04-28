@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	
+	<link rel="stylesheet" type="text/css" href="style/form_style.css"/>
+</head>
+
+<body>
+
+<div class="signup_container">
+	<div class="form_header">SIGN UP</div>	
+	<form class="signup_form" method="post" action="reg.php">
+		
+		<input type="text" size="20" name="user_fname"  placeholder="First Name">
+		<input type="text" size="20" name="user_mname" placeholder="Middle Name">
+		<input type="text" size="20" name="user_lname" placeholder="Last Name">	
+		<select style="width:30%;height:40px;" name="gender"/>	
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+		</select>
+		<input type="text" style="width:30%; position:relative; left:20%;bottom:2px;" name="user_age" placeholder="Age">	
+		<p style="font-size:14px;">INTERESTED IN: </p>
+		<select name="intrest"/>
+			<option value="acting">Acting</option>
+			<option value="direction">Direction</option>
+			<option value="production">Production</option>
+			<option value="cinematography">Cinematography</option>
+			<option value="music">Music Direction</option>
+			<option value="singing">Singing</option>
+			<option value="vfx">VFX</option>
+			<option value="dubbing">Dubbing</option>
+			<option value="mimicry">Mimicry</option>
+		</select>
+		<textarea rows="5" placeholder="Address" name="address"/></textarea>
+		+91 <input type="text" name="user_mob" placeholder="Mobile Number" style="width:70%">	
+		<input type="text" name="user_email" placeholder="Email id">	
+		<input type="password" name="user_pass" placeholder="Password">	
+		<input type="password" name="user_conpass" placeholder="Confirm Password">	
+			<input type="submit" value="SUBMIT">
+
+		<p id="login_link" style="text-align:center; position:relative; top:0px;">Already a member? <a href="index.html" style="text-decoration:none; color:#E84865;">SIGN IN</a></p>
+
+	</form>
+</div>
+
+
+</body>
+</html>
